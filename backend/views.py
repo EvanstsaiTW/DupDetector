@@ -88,7 +88,7 @@ def search_content_by_word(article, article_index, full=False):
 
 
 def random_data(request):
-    path = "data/20200701-2.csv"
+    path = "data/20200701-3.csv"
 
     data = []
     
@@ -148,7 +148,6 @@ def home(request):
     data = {"a": [3,5,6]}
     return render(request, "DupDetector/home.html")
     # return JsonResponse(data, safe=False)
-
 
 def about(request):
     # data = {"a": [3,5,6]}
